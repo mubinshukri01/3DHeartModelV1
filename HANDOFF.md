@@ -27,7 +27,7 @@ The user was onboarded on 26 Sep 2026 and agreed a 16-item improvement list. **W
 
 | # | Item | Status |
 |---|---|---|
-| 1 | Put the project under git | not requested yet (recommended: it makes copying and review easier; keep `dataset/` out of any remote repo) |
+| 1 | Put the project under git | done 19 Oct 2026: private repo https://github.com/mubinshukri01/3DHeartModelV1 (branch `main`). `.gitignore` keeps out `dataset/`, `output/`, `Jangan delete.txt`, `deploy/` (VPS address), the manuals, `.venv/` and stray Unity caches |
 | 2 | Secure the VPS (plain-text root password, HTTP only) | not requested yet |
 | 3 | pytest regression suite (`tests/`) | done |
 | 4 | Named HU thresholds in `segment_heart.py` | done |
