@@ -1,0 +1,29 @@
+# Patient data and everything made from it: never in the repository
+dataset/
+output/
+
+# Plain-text VPS password (see HANDOFF.md)
+Jangan delete.txt
+
+# Kept out on purpose: server configs (VPS address) and the manuals
+deploy/
+3DHeartApp_AdminManual.pdf
+3DHeartApp_UserManual.pdf
+EAT_Milestone_Workflow.docx
+
+# Local environments, caches and settings
+.venv/
+__pycache__/
+.pytest_cache/
+.claude/
+
+# A Unity project opened on the script masters by mistake (12 Oct 2026); the masters are Scripts/, Editor/, Shaders/
+unity/Assets/Heart/Assets/
+unity/Assets/Heart/Library/
+unity/Assets/Heart/Logs/
+unity/Assets/Heart/Packages/
+unity/Assets/Heart/ProjectSettings/
+unity/Assets/Heart/Temp/
+unity/Assets/Heart/UserSettings/
+unity/Assets/Heart/.vscode/
+unity/Assets/Heart/*.slnx

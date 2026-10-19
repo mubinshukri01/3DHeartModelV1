@@ -1,0 +1,6 @@
+# Script-level Streamlit config: read for any working directory because it sits
+# next to heart_dicom_viewer.py.
+# The app's CSS paints a light background (#f0f2f6), so pin the light theme.
+# Otherwise a dark OS/browser setting gives light text on a light page.
+[theme]
+base = "light"

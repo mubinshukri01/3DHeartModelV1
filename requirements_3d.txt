@@ -1,0 +1,12 @@
+# Direct dependencies (edit this file). The exact tested versions live in
+# requirements_3d.lock.txt, which is regenerated from this file with:
+#   uv pip compile requirements_3d.txt --python-version 3.9 -o requirements_3d.lock.txt
+streamlit>=1.30
+pydicom
+SimpleITK
+numpy
+scipy
+scikit-image
+trimesh
+matplotlib
+scikit-learn    # EAT classifier (eat_segment.py)

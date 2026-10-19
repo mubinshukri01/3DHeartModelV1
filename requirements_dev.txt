@@ -1,0 +1,3 @@
+# App/pipeline (exact versions) + tools for running the tests in tests/
+-r requirements_3d.lock.txt
+pytest==8.4.2
