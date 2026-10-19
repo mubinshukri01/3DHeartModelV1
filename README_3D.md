@@ -33,7 +33,7 @@ uv pip install --python .venv\Scripts\python.exe -r requirements_dev.txt
 .venv\Scripts\python -m pytest -v
 ```
 
-`tests/test_pipeline.py` runs both pipeline steps into a temporary folder (the real `output/` is untouched). It checks the volumes, the label-map overlap with `tests/reference/heart_labels.nii.gz` (Dice ≥ 0.99), the LV cycle (EDV 37.3 / ESV 15.1 mL, EF ≈ 59 %; rule-based labels), the output files and the GLB structure. It takes ~1.5 min. A 20 HU change to one threshold already fails it. Without the dataset only the three unit tests run.
+`tests/test_pipeline.py` runs both pipeline steps into a temporary folder (the real `output/` is untouched). It checks the volumes, the label-map overlap with `tests/reference/heart_labels.nii.gz` (Dice ≥ 0.99), the LV cycle (EDV 37.3 / ESV 15.1 mL, EF ≈ 59 %; rule-based labels), the output files and the GLB structure. It takes ~1.5 min. A 20 HU change to one threshold already fails it. Without the dataset (e.g. a fresh clone from GitHub), 75 of the 89 tests run (synthetic data) and 14 are skipped.
 
 ## Tuning the segmentation
 
